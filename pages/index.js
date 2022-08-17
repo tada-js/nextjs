@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Seo from "../components/Seo";
 
-const API_KEY = "5d49c9ffed6dfb47bdaffe5df114d183"
+const API_KEY = "YOUR API KEY"
 
 export default function Home() {
   const [movies, setMovies] = useState([])
